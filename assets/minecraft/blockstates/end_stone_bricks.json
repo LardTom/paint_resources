@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/end_bricks" },
+		{ "model": "block/end_bricks", "y": 90 },
+		{ "model": "block/end_bricks", "y": 180 },
+		{ "model": "block/end_bricks", "y": 270 },
+		{ "model": "block/end_bricks", "z": 90 },
+		{ "model": "block/end_bricks", "z": 180 },
+		{ "model": "block/end_bricks", "z": 270 },
+		{ "model": "block/end_bricks", "x": 270 },
+		{ "model": "block/end_bricks", "x": 270 },
+		{ "model": "block/end_bricks", "x": 270 }
+		]
+    }
+}

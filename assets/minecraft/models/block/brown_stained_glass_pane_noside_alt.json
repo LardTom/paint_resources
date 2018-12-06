@@ -1,0 +1,9 @@
+{
+	"__comment": "Designed by Halbzwilling with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/light_gray_stained_glass",
+		"texture":  "block/light_gray_stained_glass"
+	},
+	"elements": [
+	]
+}

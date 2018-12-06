@@ -1,0 +1,331 @@
+{
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 225, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		},
+		"head": {
+            "translation":  [ 0, -50, 0 ],
+            "rotation":  [ 0, -20, 0 ],
+            "scale":  [ 1.7, 1.7, 1.7 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	},
+    "__comment": "Model designed by Halbzwilling and slightly improved by Hallo89",
+	"textures": {
+		"particle": "#frame"
+	},
+    "elements": [
+        {
+            "name": "Lower south west corner 1",
+            "from": [ 1.0, 2.0, 9.0 ],
+            "to":   [ 2.0, 3.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 14.0, 0.0, 15.0, 1.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 1.0, 0.0, 7.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 1.0, 0.0, 2.0, 1.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 9.0, 0.0, 15.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 1.0, 9.0, 2.0, 15.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 7.0 ] }
+            }
+        },
+        {
+            "name": "Lower south west corner 2",
+            "from": [ 2.0, 2.0, 14.0 ],
+            "to":   [ 7.0, 3.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 9.0, 0.0, 14.0, 1.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 1.0, 0.0, 2.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 2.0, 0.0, 7.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 2.0, 14.0, 7.0, 15.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 2.0, 1.0, 7.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "Lower south west corner 3",
+            "from": [ 1.0, 3.0, 14.0 ],
+            "to":   [ 2.0, 8.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 14.0, 8.0, 15.0, 13.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 1.0, 8.0, 2.0, 13.0 ] },
+                "south": { "texture": "#frame", "uv": [ 1.0, 8.0, 2.0, 13.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 14.0, 8.0, 15.0, 13.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 1.0, 14.0, 2.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Lower south east corner 1",
+            "from": [ 14.0, 2.0, 9.0 ],
+            "to":   [ 15.0, 3.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 1.0, 13.0, 2.0, 14.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 1.0, 13.0, 7.0, 14.0 ] },
+                "south": { "texture": "#frame", "uv": [ 14.0, 13.0, 15.0, 14.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 9.0, 13.0, 15.0, 14.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 14.0, 9.0, 15.0, 15.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 7.0 ] }
+            }
+        },
+        {
+            "name": "Lower south east corner 2",
+            "from": [ 9.0, 2.0, 14.0 ],
+            "to":   [ 14.0, 3.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 2.0, 0.0, 7.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 9.0, 0.0, 14.0, 1.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 14.0, 0.0, 15.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 9.0, 14.0, 14.0, 15.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 9.0, 1.0, 14.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "Lower south east corner 3",
+            "from": [ 14.0, 3.0, 14.0 ],
+            "to":   [ 15.0, 8.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 1.0, 8.0, 2.0, 13.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 1.0, 8.0, 2.0, 13.0 ] },
+                "south": { "texture": "#frame", "uv": [ 14.0, 8.0, 15.0, 13.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 14.0, 8.0, 15.0, 13.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 14.0, 14.0, 15.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Lower north east corner 1",
+            "from": [ 14.0, 2.0, 1.0 ],
+            "to":   [ 15.0, 3.0, 7.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 1.0, 0.0, 2.0, 1.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 9.0, 0.0, 15.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 14.0, 0.0, 15.0, 1.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 1.0, 0.0, 7.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 7.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 14.0, 9.0, 15.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Lower north east corner 2",
+            "from": [ 9.0, 2.0, 1.0 ],
+            "to":   [ 14.0, 3.0, 2.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 2.0, 0.0, 7.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 9.0, 0.0, 14.0, 1.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 1.0, 0.0, 2.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 9.0, 1.0, 14.0, 2.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 9.0, 14.0, 14.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Lower north east corner 3",
+            "from": [ 14.0, 3.0, 1.0 ],
+            "to":   [ 15.0, 8.0, 2.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 1.0, 8.0, 2.0, 13.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 14.0, 8.0, 15.0, 13.0 ] },
+                "south": { "texture": "#frame", "uv": [ 14.0, 8.0, 15.0, 13.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 1.0, 8.0, 2.0, 13.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "Lower north west corner 1",
+            "from": [ 1.0, 2.0, 1.0 ],
+            "to":   [ 2.0, 3.0, 7.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 14.0, 13.0, 15.0, 14.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 9.0, 13.0, 15.0, 14.0 ] },
+                "south": { "texture": "#frame", "uv": [ 1.0, 13.0, 2.0, 14.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 1.0, 13.0, 7.0, 14.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 7.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 1.0, 9.0, 2.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Lower north west corner 2",
+            "from": [ 2.0, 2.0, 1.0 ],
+            "to":   [ 7.0, 3.0, 2.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 9.0, 0.0, 14.0, 1.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 14.0, 0.0, 15.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 2.0, 0.0, 7.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 2.0, 1.0, 7.0, 2.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 2.0, 14.0, 7.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Lower north west corner 3",
+            "from": [ 1.0, 3.0, 1.0 ],
+            "to":   [ 2.0, 8.0, 2.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 14.0, 8.0, 15.0, 13.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 14.0, 8.0, 15.0, 13.0 ] },
+                "south": { "texture": "#frame", "uv": [ 1.0, 8.0, 2.0, 13.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 1.0, 8.0, 2.0, 13.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "Upper south west corner 1",
+            "from": [ 1.0, 15.0, 9.0 ],
+            "to":   [ 2.0, 16.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 14.0, 0.0, 15.0, 1.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 1.0, 0.0, 7.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 1.0, 0.0, 2.0, 1.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 9.0, 0.0, 15.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 1.0, 9.0, 2.0, 15.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 7.0 ] }
+            }
+        },
+        {
+            "name": "Upper south west corner 2",
+            "from": [ 2.0, 15.0, 14.0 ],
+            "to":   [ 7.0, 16.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 9.0, 0.0, 14.0, 1.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 1.0, 0.0, 2.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 2.0, 0.0, 7.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 2.0, 14.0, 7.0, 15.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 2.0, 1.0, 7.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "Upper south west corner 3",
+            "from": [ 1.0, 10.0, 14.0 ],
+            "to":   [ 2.0, 15.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 6.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 6.0 ] },
+                "south": { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 6.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 6.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "Upper north west corner 1",
+            "from": [ 1.0, 15.0, 1.0 ],
+            "to":   [ 2.0, 16.0, 7.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 14.0, 0.0, 15.0, 1.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 9.0, 0.0, 15.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 1.0, 0.0, 2.0, 1.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 1.0, 0.0, 7.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 7.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 1.0, 9.0, 2.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Upper north west corner 2",
+            "from": [ 2.0, 15.0, 1.0 ],
+            "to":   [ 7.0, 16.0, 2.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 9.0, 0.0, 14.0, 1.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 14.0, 0.0, 15.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 2.0, 0.0, 7.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 2.0, 1.0, 7.0, 2.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 2.0, 14.0, 7.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Upper north west corner 3",
+            "from": [ 1.0, 10.0, 1.0 ],
+            "to":   [ 2.0, 15.0, 2.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 6.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 6.0 ] },
+                "south": { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 6.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 6.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 1.0, 14.0, 2.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Upper north east corner 1",
+            "from": [ 14.0, 15.0, 1.0 ],
+            "to":   [ 15.0, 16.0, 7.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 1.0, 0.0, 2.0, 1.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 9.0, 0.0, 15.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 14.0, 0.0, 15.0, 1.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 1.0, 0.0, 7.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 7.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 14.0, 9.0, 15.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Upper north east corner 2",
+            "from": [ 9.0, 15.0, 1.0 ],
+            "to":   [ 14.0, 16.0, 2.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 2.0, 0.0, 7.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 9.0, 0.0, 14.0, 1.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 1.0, 0.0, 2.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 9.0, 1.0, 14.0, 2.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 9.0, 14.0, 14.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Upper north east corner 3 ",
+            "from": [ 14.0, 10.0, 1.0 ],
+            "to":   [ 15.0, 15.0, 2.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 6.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 6.0 ] },
+                "south": { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 6.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 6.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 14.0, 14.0, 15.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Upper south east corner 1",
+            "from": [ 14.0, 15.0, 9.0 ],
+            "to":   [ 15.0, 16.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 1.0, 0.0, 2.0, 1.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 1.0, 0.0, 7.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 14.0, 0.0, 15.0, 1.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 9.0, 0.0, 15.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 14.0, 9.0, 15.0, 15.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 7.0 ] }
+            }
+        },
+        {
+            "name": "Upper south east corner 2",
+            "from": [ 9.0, 15.0, 14.0 ],
+            "to":   [ 14.0, 16.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 2.0, 0.0, 7.0, 1.0 ] },
+                "south": { "texture": "#frame", "uv": [ 9.0, 0.0, 14.0, 1.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 14.0, 0.0, 15.0, 1.0 ] },
+                "up":    { "texture": "#frame", "uv": [ 9.0, 14.0, 14.0, 15.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 9.0, 1.0, 14.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "Upper south east corner 3",
+            "from": [ 14.0, 10.0, 14.0 ],
+            "to":   [ 15.0, 15.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 6.0 ] },
+                "east":  { "texture": "#frame", "uv": [ 1.0, 1.0, 2.0, 6.0 ] },
+                "south": { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 6.0 ] },
+                "west":  { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 6.0 ] },
+                "down":  { "texture": "#frame", "uv": [ 14.0, 1.0, 15.0, 2.0 ] }
+            }
+        }
+    ]
+}
