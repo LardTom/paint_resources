@@ -9,6 +9,7 @@
 			"__comment": "Box1",
 			"from": [ 0, 0, 14 ],
 			"to": [ 2, 8, 16 ],
+			"shade": false,
 			"faces": {
 				"down": { "uv": [ 0, 14, 2, 16 ], "texture": "#texture", "rotation": 90 },
 				"up": { "uv": [ 0, 0, 2, 2 ], "texture": "#texture", "rotation": 270 },
@@ -22,6 +23,7 @@
 			"__comment": "Box1",
 			"from": [ 0, 0, 0 ],
 			"to": [ 2, 8, 2 ],
+			"shade": false,
 			"faces": {
 				"down": { "uv": [ 14, 14, 16, 16 ], "texture": "#texture", "rotation": 90 },
 				"up": { "uv": [ 14, 0, 16, 2 ], "texture": "#texture", "rotation": 270 },
@@ -35,6 +37,7 @@
 			"__comment": "Box1",
 			"from": [ 14, 0, 14 ],
 			"to": [ 16, 8, 16 ],
+			"shade": false,
 			"faces": {
 				"down": { "uv": [ 0, 0, 2, 2 ], "texture": "#texture", "rotation": 90 },
 				"up": { "uv": [ 0, 14, 2, 16 ], "texture": "#texture", "rotation": 270 },
@@ -48,6 +51,7 @@
 			"__comment": "Box1",
 			"from": [ 14.0001, 0, 0 ],
 			"to": [ 16.0001, 8, 2 ],
+			"shade": false,
 			"faces": {
 				"down": { "uv": [ 14, 0, 16, 2 ], "texture": "#texture", "rotation": 90 },
 				"up": { "uv": [ 14, 14, 16, 16 ], "texture": "#texture", "rotation": 270 },
@@ -61,6 +65,7 @@
 			"__comment": "Box5",
 			"from": [ 0, 8, 0 ],
 			"to": [ 16, 10, 16 ],
+			"shade": false,
 			"faces": {
 				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 90 },
 				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 270 },
@@ -74,6 +79,7 @@
 			"__comment": "Box5",
 			"from": [ 0, 8, 0 ],
 			"to": [ 16, 10, 16 ],
+			"shade": false,
 			"faces": {
 				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 90 },
 				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "rotation": 270 },
@@ -87,6 +93,7 @@
 			"__comment": "Box5",
 			"from": [ 14, 10, 0 ],
 			"to": [ 16, 26, 16 ],
+			"shade": false,
 			"faces": {
 				"down": { "uv": [ 16, 4, 0, 2 ], "texture": "#texture", "rotation": 90 },
 				"up": { "uv": [ 0, 2, 16, 4 ], "texture": "#texture", "rotation": 270 },
@@ -100,6 +107,7 @@
 			"__comment": "Box8",
 			"from": [ 0, 0, 0 ],
 			"to": [ 16, 0.001, 16 ],
+			"shade": false,
 			"faces": {
 				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
 				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
